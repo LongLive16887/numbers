@@ -6,7 +6,7 @@ export const numbersApi = createApi({
   tagTypes: ["Numbers"],
   baseQuery: fetchBaseQuery(
     {
-      baseUrl: "http://numbersapi.com/",
+      baseUrl: "https://corsproxy.io/?http://numbersapi.com/",
     },
   ),
   endpoints: (builder) => ({
