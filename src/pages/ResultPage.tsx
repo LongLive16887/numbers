@@ -9,7 +9,7 @@ const ResultPage = () => {
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
-                px: 2,
+                px: 3,
             }}
         >
             <Result />
